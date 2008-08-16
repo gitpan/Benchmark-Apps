@@ -9,13 +9,9 @@ use Time::HiRes qw.gettimeofday tv_interval.;
 
 Benchmark::Apps - Simple interface to benchmark applications.
 
-=head1 VERSION
-
-Version 0.01
-
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
