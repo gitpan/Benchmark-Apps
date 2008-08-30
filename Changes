@@ -1,5 +1,9 @@
 Revision history for Benchmark-Apps
 
+0.03    August 30, 2008 - 21h20m
+        - API change for flexibility.
+        - Added support for different command arguments per iteration.
+
 0.02    August 18, 2008 - 14h36m
         - Upload of version 0.01 failed.
 

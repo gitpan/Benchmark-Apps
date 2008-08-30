@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Benchmark-Apps
-version:             0.02
+version:             0.03
 abstract:            Simple interface to benchmark applications.
 license:             ~
 author:              
