@@ -1,5 +1,5 @@
 package Benchmark::Apps;
-
+$Benchmark::Apps::VERSION = '0.05';
 use warnings;
 use strict;
 
@@ -8,11 +8,6 @@ use Time::HiRes qw.gettimeofday tv_interval.;
 =head1 NAME
 
 Benchmark::Apps - Simple interface to benchmark applications.
-
-=cut
-
-our $VERSION = '0.04';
-
 
 =head1 SYNOPSIS
 
@@ -28,7 +23,7 @@ necessarily Perl applications).
 
   my $conf = { pretty_print=>1, iters=>5 };
 
-  Benchmark:Apps::run( $commands, $conf );
+  Benchmark::Apps::run( $commands, $conf );
 
 =head1 DESCRIPTION
 
